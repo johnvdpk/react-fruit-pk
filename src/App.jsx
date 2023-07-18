@@ -1,7 +1,12 @@
 import './App.css'
 
 function App() {
-    return (
+    return (<>
+        <header>
+        <h1>Fruit perfection</h1>
+            <button>Shop nu</button>
+        </header>
+
         <main>
             <article className="product">
                 <img
@@ -38,6 +43,7 @@ function App() {
                 </p>
             </article>
         </main>
+        </>
     );
 }
 
