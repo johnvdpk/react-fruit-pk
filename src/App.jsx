@@ -4,7 +4,6 @@ import citroen from './assets/citroenen.jpeg';
 import limoen from './assets/limoenen.png';
 import ijsblokjes from './assets/ijsblokjes.jpg';
 
-
 function App() {
     return (
         <>
@@ -24,7 +23,9 @@ function App() {
             </nav>
             <header>
                 <h1>Fruit perfection</h1>
-                <button type="button">
+                <button type="button"
+                onClick={() => console.log("Jij wilt shoppen!")}
+                >
                     Shop nu
                 </button>
             </header>
