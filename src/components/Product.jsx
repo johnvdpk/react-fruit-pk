@@ -1,4 +1,5 @@
 import React from 'react';
+
 function Product(props) {
     return (
         <article className="product">
@@ -8,4 +9,5 @@ function Product(props) {
         </article>
     );
 }
+
 export default Product;
