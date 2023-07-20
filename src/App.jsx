@@ -1,5 +1,5 @@
 import './App.css'
-import { ReactComponent as ShoppingCart } from './assets/winkelmandje.svg';
+import {ReactComponent as ShoppingCart} from './assets/winkelmandje.svg';
 import citroen from './assets/citroenen.jpeg';
 import limoen from './assets/limoenen.png';
 import ijsblokjes from './assets/ijsblokjes.jpg';
@@ -19,12 +19,12 @@ function App() {
                         <a href="/">Blog</a>
                     </li>
                 </ul>
-        <ShoppingCart className="shopping-cart-icon"/>
+                <ShoppingCart className="shopping-cart-icon"/>
             </nav>
             <header>
                 <h1>Fruit perfection</h1>
                 <button type="button"
-                onClick={() => console.log("Jij wilt shoppen!")}
+                        onClick={() => console.log("Jij wilt shoppen!")}
                 >
                     Shop nu
                 </button>
