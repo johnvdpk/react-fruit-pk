@@ -2,6 +2,7 @@ import './App.css'
 import citroen from './assets/citroenen.jpeg'
 import limoen from './assets/limoenen.png'
 import ijsblokjes from './assets/ijsblokjes.jpg'
+
 function App() {
     return (
         <>
